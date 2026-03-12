@@ -1,6 +1,6 @@
 let images = [
-    ['images/Untitled design (1).png', 'images/Untitled design.png','images/Untitled design (2).png',],
-    ['images/Untitled design (3).png', 'images/Untitled design (4).png','images/Untitled design (5).png',],
+    ['Untitled design (1).png', 'Untitled design.png','Untitled design (2).png',],
+    ['Untitled design (3).png', 'Untitled design (4).png','Untitled design (5).png',],
 ];
 
 console.log(images.length);
@@ -22,4 +22,5 @@ html += "</tr>";
 };
 
 html += "</table>";
+
 display.innerHTML = html;
